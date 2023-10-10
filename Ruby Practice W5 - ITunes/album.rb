@@ -1,3 +1,5 @@
+# Albums file
+
 class Album
   attr_accessor :name, :tracks, :length, :artist, :id
 

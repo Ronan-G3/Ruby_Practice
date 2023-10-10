@@ -1,3 +1,4 @@
+# Main top level file in the structure
 require 'csv'
 require_relative 'actor','album','song','reader','utilities','error'
 
@@ -19,4 +20,4 @@ $songs.each{|song| song.owners = $hash_owners[song.id]}
 puts "Building All Albums..."
 $albums = Album.build_all()
 
-# markkean% ruby itunes.rb songs.csv owners.csv
+#  markkean% ruby itunes.rb songs.csv owners.csv

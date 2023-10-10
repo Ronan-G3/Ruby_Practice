@@ -1,3 +1,5 @@
+# Songs are defined in this file
+
 class Song
   attr_accessor :name, :album, :artist, :time, :owners, :id
 

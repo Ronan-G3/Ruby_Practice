@@ -1,3 +1,4 @@
+# Errors defined in this file
 class MyErr
   attr_accessor :type, :holder, :method
 
