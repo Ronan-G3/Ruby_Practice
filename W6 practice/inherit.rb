@@ -28,4 +28,5 @@ class Seagull < Bird # I want to inherit all methods that belong to bird into se
   def beak_size
     @beak + @beak
   end
+
 end
