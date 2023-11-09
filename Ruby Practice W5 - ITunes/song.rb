@@ -1,6 +1,7 @@
 # Songs are defined in this class
 
 class Song
+  include Pred
   attr_accessor :name, :album, :artist, :time, :owners, :id
 
   def initialize(name, album, artist, time, owners, id)

@@ -1,6 +1,7 @@
 # Albums file
 
 class Album
+  include Pred
   attr_accessor :name, :tracks, :length, :artist, :id
 
   def initialize(name, tracks, length, artist, owners)

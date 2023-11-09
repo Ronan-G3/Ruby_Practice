@@ -1,5 +1,6 @@
 # Actors ruby file
 class Actor
+  include Pred
   attr_accessor :name, :id
 
   def initialize(name)
